@@ -1,6 +1,7 @@
 @import "./block/var";
 @import "./block/fonts";
 @import "./block/header";
+@import "./block/main";
 * {
   margin: 0;
   padding: 0;
@@ -28,4 +29,10 @@ body {
   max-width: 1450px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #D6D6D6;;
 }

@@ -180,6 +180,12 @@
   }
 }
 
+.hero__container {
+  display: flex;
+}
+.hero__content {
+  flex: 0 0 42.2535211268%;
+}
 * {
   margin: 0;
   padding: 0;
@@ -208,6 +214,13 @@ body._lock {
   max-width: 1450px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #D6D6D6;
 }
 
 /*# sourceMappingURL=style.css.map */

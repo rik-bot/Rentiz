@@ -1,0 +1,15 @@
+.hero {
+  &__container {
+    display: flex;
+  }
+  &__content {
+    // display: flex;
+    flex: 0 0 calc(600px / 1420px * 100%);
+  }
+  &__title {
+  }
+  &__text {
+  }
+  &__img {
+  }
+}
